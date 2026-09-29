@@ -1,4 +1,5 @@
 # decleared one data type of list those are store the single data type value by the user
+# be default in python when we takes the input then that is changed in striing data type 
 class array_dec:
     def __init__(self,size):
         self.size=size
