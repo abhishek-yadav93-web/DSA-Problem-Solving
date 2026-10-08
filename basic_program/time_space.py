@@ -1,4 +1,4 @@
-class array_dec:
+class Array_dec:
     def __init__(self,size):
         self.size=size
         self.arr=[0]*size
@@ -14,7 +14,7 @@ class array_dec:
         print("array: ",arr)
         
     
-class sorting:
+class Sorting:
     def  linear_sorting(self,arr:list[int]):# time complexity is O(n2) in both condition 
         for i in range(0,len(arr)-1,1):
             greates=i
@@ -40,10 +40,10 @@ class sorting:
         return arr
     
 size=int(input('enter the size of the array: '))
-obj=array_dec(size)
+obj=Array_dec(size)
 arr=obj.create_arr()
 obj.print_arr(arr)
-algo=sorting()
+algo=Sorting()
 # new_arr=algo.linear_sorting(arr)
 # obj.print_arr(new_arr)
 # new_arr=algo.bubble_sort(arr)
