@@ -4,7 +4,7 @@ def find_ell(arr:list[int])->int:
     a=arr[0]
     b=arr[len(arr)-1]
     # total_sum=(size*(size+1))//2 that is work when given the array ellement is starting from 1
-    total_sum=((a+b)*(b-a+1))//2 # that is work for all the condition but the different is allays is 1 
+    total_sum=((a+b)*(b-a+1))//2 # that is work for all the condition but the different is allays is 1  different 
     sum=0
     for i in range(0,len(arr),1):
         sum=sum+arr[i]
